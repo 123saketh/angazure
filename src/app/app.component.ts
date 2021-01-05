@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+declare const test:any;
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angazure';
+  constructor(){
+    //test();
+  }
 }
